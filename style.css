@@ -1,0 +1,28 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: gray;
+}
+
+canvas {
+  display: block;
+}
+
+div {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+h2 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
